@@ -1,6 +1,13 @@
-# Getting Started with Create React App
+# Create React App with Phaser
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+![ScreenShot](https://raw.githubusercontent.com/blopa/react-with-phaser/main/screenshot.jpg)
+
+It uses React 18 and Phaser 3.55.
+
+## Phaser
+The Phaser Game object is instanciated on the `src/App.js` file and the only game scene is at `src/game-scenes/MainScene.js`.
 
 ## Available Scripts
 
