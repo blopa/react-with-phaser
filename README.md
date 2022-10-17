@@ -17,6 +17,8 @@ The answer is to use [image-webpack-loader](https://www.npmjs.com/package/image-
 ## Two options
 It's possible to create the canvas inside React's root, or outside it. The `main` branch uses the first option, for the other option check [this branch](https://github.com/blopa/react-with-phaser/tree/different-roots).
 
+It's also possible to force Phaser to use an existing canvas created by React, check [this branch](https://github.com/blopa/react-with-phaser/tree/force-canvas) to see how.
+
 ## Available Scripts
 
 In the project directory, you can run:
