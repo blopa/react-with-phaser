@@ -9,6 +9,14 @@ It uses React 18 and Phaser 3.55.
 ## Phaser
 The Phaser Game object is instanciated on the `src/App.js` file and the only game scene is at `src/game-scenes/MainScene.js`.
 
+## Why is there a repo just for this?
+Phaser don't accept Base64 images to be loaded, which is the default used in the CRA, and since you can't edit the Webpack configuration, a workaround is needed.
+
+The answer is to use [image-webpack-loader](https://www.npmjs.com/package/image-webpack-loader) to import images with `import myImg from '!!image-webpack-loader!../assets/my-image.png';`.
+
+## Two options
+It's possible to create the canvas inside React's root, or outside it. The `main` branch uses the first option, for the other option check [this branch](https://github.com/blopa/react-with-phaser/tree/different-roots).
+
 ## Available Scripts
 
 In the project directory, you can run:
